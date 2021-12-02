@@ -13,7 +13,7 @@ def insertion_sort(arr):
         arr[j + 1] = item
     return arr
 
-class TestBubbleSort(unittest.TestCase):
+class TestInsertionSort(unittest.TestCase):
 
     def test_empty(self):
         self.assertEqual(insertion_sort([]), [])
